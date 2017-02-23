@@ -5,8 +5,16 @@
   <title></title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="css/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+    crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+    crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -52,8 +60,7 @@
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
             <h1 class="brand-heading">Andrew Carver</h1>
-            <p class="intro-text">Full Stack Software Engineer
-              <br>currently learning at Coding Dojo</p>
+            <p class="intro-text">Full Stack Software Engineer</p>
             <a href="#about" class="btn btn-circle page-scroll">
               <i class="fa fa-angle-double-down animated"></i>
             </a>
@@ -63,89 +70,56 @@
     </div>
   </header>
 
-  <article>
-    <header>
-      <h1>Title of Article</h1>
-      <h2>Subtitle of Article</h2>
-    </header>
+  <!-- About Section -->
+  <section id="about" class="container content-section text-center">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h2>Portfolio</h2>
+        <p>Here will be links and examples of projects I have worked on and contributed too.</p>
+        <p>Skills include HTML/CSS, Python, Django, MySQL, MEAN stack, Javascript, iOS, Swift.</p>
+      </div>
+    </div>
+  </section>
 
-    <section>
-      <h3>First Logical Part (e.g. "Theory")</h3>
-      <p>Paragraph 1 in first section</p>
-
-      <h4>Some Other Subheading in First Section</h4>
-      <p>Paragraph 2 in first section</p>
-    </section>
-
-    <section>
-      <h3>Second Logical Part (e.g. "Practice")</h3>
-      <p>Paragraph 1 in second section</p>
-      <p>Paragraph 2 in second section</p>
-    </section>
-
-    <footer>
-      <h4>Author Bio</h4>
-      <p>Paragraph in Article's Footer</p>
-    </footer>
-
-  </article>
-
-  <aside>
-
-    <h2>Get To Know Us Better</h2>
-
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-      <div class="row">
+  <!-- About Me Section -->
+  <section id="download" class="content-section text-center">
+    <div class="download-section">
+      <div class="container">
         <div class="col-lg-8 col-lg-offset-2">
-          <h2>Portfolio</h2>
-          <p>Here will be links and examples of projects I have worked on and contributed too.</p>
-          <p>Skills include HTML/CSS, Python, Django, MySQL, MEAN stack, Javascript, iOS, Swift.</p>
+          <h2>About Me</h2>
+          <p>More Templates.</p>
+          <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Resume</a>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- About Me Section -->
-    <section id="download" class="content-section text-center">
-      <div class="download-section">
-        <div class="container">
-          <div class="col-lg-8 col-lg-offset-2">
-            <h2>About Me</h2>
-            <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-            <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Resume</a>
-          </div>
-        </div>
+  <!-- Contact Section -->
+  <section id="contact" class="container content-section text-center">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h2>Contact</h2>
+        <p>Feel free to email!</p>
+        <p><a href="mailto:andrewmcarver@gmail.com">andrewmcarver@gmail.com</a>
+        </p>
+        <ul class="list-inline banner-social-buttons">
+          <li>
+            <a href="https://github.com/andycarver" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/andrew-carver-5478519" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+          </li>
+        </ul>
       </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h2>Contact</h2>
-          <p>Feel free to email!</p>
-          <p><a href="mailto:andrewmcarver@gmail.com">andrewmcarver@gmail.com</a>
-          </p>
-          <ul class="list-inline banner-social-buttons">
-            <li>
-              <a href="https://github.com/andycarver" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/andrew-carver-5478519" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-  </aside>
+    </div>
+  </section>
 
   <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; Andrew Carver 2016</p>
-        </div>
-    </footer>
+  <footer>
+    <div class="container text-center">
+      <p>Copyright &copy; Andrew Carver 2016</p>
+    </div>
+  </footer>
 </body>
 
 </html>
